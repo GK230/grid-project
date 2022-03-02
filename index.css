@@ -13,12 +13,12 @@ header {
 
 main {
     background-color: blanchedalmond;
-    padding: 1rem;
+    padding: 2rem 3rem;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 1fr;
-    grid-gap: 5px;
+    grid-template-rows: 4;
+    grid-gap: 1rem;
 }
 
 div.square {
