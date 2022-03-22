@@ -12,17 +12,28 @@ header {
 }
 
 main {
-    background-color: blanchedalmond;
-    padding: 2rem 3rem;
+   display: grid;
+   grid-template-rows: repeat(4, 20rem);
+   grid-template-columns: repeat(4, 1fr);
+   margin: 4rem 6rem;
+   grid-gap: 3rem;
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 4;
-    grid-gap: 1rem;
+   
+
 }
 
 div.square {
-    border: black solid 1px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
 }
 
 footer {
